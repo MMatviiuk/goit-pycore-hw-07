@@ -20,22 +20,9 @@
 ## Як запустити
 
 1. Імпортуйте клас `AddressBook` для роботи з контактами.
-2. Використовуйте функцію `main()` для запуску асистента:
-   ```python
-   def main():
-       book = AddressBook()
-       print("Welcome to the assistant bot!")
-       while True:
-           user_input = input("Enter a command: ")
-           command, *args = parse_input(user_input)
-           
-           if command in ["close", "exit"]:
-               print("Good bye!")
-               break
-           # інші команди...
-   ```
+2. Використовуйте функцію `main()` для запуску асистента.
 
-## Оцінка виконання
+   ## Оцінка виконання
 
 1. Реалізуйте всі вказані команди.
 2. Дані мають виводитися в зрозумілому форматі.
